@@ -49,4 +49,3 @@ export default async function handler(req, res) {
     res.status(500).json({ error: "분석 중 오류가 발생했습니다." });
   }
 }
-
